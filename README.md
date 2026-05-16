@@ -140,4 +140,4 @@ This repository is pre-configured for Railway deployment using `nixpacks.toml` a
 2. In Railway, create a new project -> **Deploy from GitHub repo**.
 3. Add a **PostgreSQL** database service (Railway will automatically inject the `DATABASE_URL` variable).
 4. Add your `.env` variables (like `SECRET_KEY` and your `SMTP_*` variables) into the Railway project variables.
-5. Generate a public domain in the Networking settings.
+
